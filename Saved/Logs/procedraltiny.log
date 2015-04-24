@@ -1,0 +1,203 @@
+﻿Log file open, 04/23/15 20:58:19
+LogInit:Display: Running engine for game: procedraltiny
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.24-00.58.19:962][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.24-00.58.20:014][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.24-00.58.20:027][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.24-00.58.20:038][  0]LogInit: Object subsystem initialized
+[2015.04.24-00.58.20:043][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.24-00.58.20:043][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.24-00.58.20:049][  0]LogInit: Computer: CODYHAMILTON-PC
+[2015.04.24-00.58.20:049][  0]LogInit: User: CodyHamilton
+[2015.04.24-00.58.20:049][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.24-00.58.20:049][  0]LogInit: High frequency timer resolution =2.241113 MHz
+[2015.04.24-00.58.20:049][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx) Virtual=8192.0GB
+[2015.04.24-00.58.20:050][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.24-00.58.20:050][  0]LogMemory: Process Physical Memory: 47.68 MB used, 47.68 MB peak
+[2015.04.24-00.58.20:050][  0]LogMemory: Process Virtual Memory: 26.45 MB used, 26.45 MB peak
+[2015.04.24-00.58.20:050][  0]LogMemory: Physical Memory: 6818.83 MB used, 16336.99 MB total
+[2015.04.24-00.58.20:050][  0]LogMemory: Virtual Memory: 281.67 MB used, 8388608.00 MB total
+[2015.04.24-00.58.20:080][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660M (Feature Level 11_0)
+[2015.04.24-00.58.20:080][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.04.24-00.58.20:080][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.24-00.58.20:085][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.24-00.58.20:093][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.24-00.58.20:148][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.04.24-00.58.20:216][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.24-00.58.20:216][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.24-00.58.20:308][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.24-00.58.22:931][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.24-00.58.23:469][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.24-00.58.23:534][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.24-00.58.23:573][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Cody Hamilton/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.24-00.58.23:573][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Cody Hamilton/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.24-00.58.23:573][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Cody Hamilton/Documents/Unreal Projects/procedraltiny/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.24-00.58.23:573][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.24-00.58.23:712][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.24-00.58.23:772][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Cody Hamilton/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.24-00.58.24:097][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.24-00.58.24:097][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.24-00.58.24:468][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.24-00.58.24:550][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.24-00.58.25:442][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.24-00.58.25:648][  0]SourceControl: Info Source control is disabled
+[2015.04.24-00.58.25:648][  0]SourceControl: Info Source control is disabled
+[2015.04.24-00.58.25:648][  0]SourceControl: Info Source control is disabled
+[2015.04.24-00.58.25:648][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.24-00.58.25:648][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.24-00.58.25:657][  0]SourceControl: Info Source control is disabled
+[2015.04.24-00.58.25:851][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.04.24-00.58.25:851][  0]LogUObjectAllocator: 5137168 out of 0 bytes used by permanent object pool.
+[2015.04.24-00.58.25:942][  0]LogEngine: Initializing Engine...
+[2015.04.24-00.58.29:117][  0]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.04.24-00.58.29:135][  0]LogInit: FAudioDevice initialized.
+[2015.04.24-00.58.29:174][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.24-00.58.29:196][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Cody Hamilton/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.24-00.58.29:199][  0]LogInit: Texture streaming: Enabled
+[2015.04.24-00.58.29:298][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.24-00.58.29:298][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.04.24-00.58.29:298][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.04.24-00.58.29:298][  0]LogAnalytics: SetUserId 71bf35364650cbd112430cab9d86d890|d6dbcf62001f4ccc955b61d8c78a6508|3165e862-01a8-4425-9be9-b2fefba28533
+[2015.04.24-00.58.29:298][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.24-00.58.29:321][  0]LogInit: Transaction tracking system initialized
+[2015.04.24-00.58.29:498][  0]BlueprintLog: New page: Editor Load
+[2015.04.24-00.58.29:535][  0]LogAssetRegistry: FAssetRegistry took 0.0097 seconds to start up
+[2015.04.24-00.58.29:535][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.24-00.58.30:134][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.24-00.58.30:528][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.24-00.58.35:455][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.24-00.58.35:456][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.24-00.58.35:465][  0]LogConsoleResponse:Display: 
+[2015.04.24-00.58.35:597][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.24-00.58.35:748][  0]SourceControl: Info Source control is disabled
+[2015.04.24-00.58.35:748][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.24-00.58.35:748][  0]LightingResults: New page: Lighting Build
+[2015.04.24-00.58.35:761][  0]MapCheck: New page: Map Check
+[2015.04.24-00.58.35:761][  0]LightingResults: New page: Lighting Build
+[2015.04.24-00.58.35:768][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000004378680
+[2015.04.24-00.58.36:428][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.24-00.58.36:432][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.04.24-00.58.36:433][  0]Cmd: MAP CHECKDEP
+[2015.04.24-00.58.36:433][  0]MapCheck: New page: Untitled_1 - Apr 23, 2015, 4:58:36 PM
+[2015.04.24-00.58.36:507][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.173ms to complete.
+[2015.04.24-00.58.36:507][  0]LogFileHelpers: Loading map 'Template_Default' took 0.759
+[2015.04.24-00.58.36:634][  0]LogCollectionManager: Loaded 0 collections in 0.001939 seconds
+[2015.04.24-00.58.36:647][  0]LogContentBrowser: Native class hierarchy populated in 0.0127 seconds. Added 1696 classes and 261 folders.
+[2015.04.24-00.58.36:681][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0020 seconds. Added 1 classes and 2 folders.
+[2015.04.24-00.58.36:734][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.24-00.58.36:735][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.24-00.58.36:742][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.24-00.58.36:766][  0]LogLoad: Full Startup: 18.69 seconds (BP compile: 0.09 seconds)
+[2015.04.24-00.58.37:005][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x568 (Frame:2).
+[2015.04.24-00.58.37:248][  4]LogAssetRegistry: Asset discovery search completed in 7.7230 seconds
+[2015.04.24-00.58.41:590][231]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.24-00.58.41:590][231]PIE: New page: PIE session: Untitled_1 (Apr 23, 2015, 4:58:41 PM)
+[2015.04.24-00.58.41:591][231]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001344s)
+[2015.04.24-00.58.41:592][231]LogPlayLevel: PIE: World Init took: (0.000511s)
+[2015.04.24-00.58.41:592][231]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002061s)
+[2015.04.24-00.58.41:688][231]LogWorld: Game class is 'GameMode'
+[2015.04.24-00.58.41:690][231]LogAIModule: Creating AISystem for world Untitled_1
+[2015.04.24-00.58.41:693][231]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2015.04.23-20.58.41
+[2015.04.24-00.58.41:693][231]LogWorld: Bringing up level for play took: 0.002438
+[2015.04.24-00.58.41:716][231]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.025
+[2015.04.24-00.58.48:392][617]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D83E660
+[2015.04.24-00.59.39:839][149]LogAssetTools:Warning: Failed to import 'D:\project back up 4-23-2015\Blueprints\ObjectPlacer.uasset'. Unknown extension 'uasset'.
+[2015.04.24-00.59.39:847][149]LogAssetTools:Warning: Failed to import 'D:\project back up 4-23-2015\Blueprints\ProcedrualInterface.uasset'. Unknown extension 'uasset'.
+[2015.04.24-00.59.39:853][149]LogAssetTools:Warning: Failed to import 'D:\project back up 4-23-2015\Blueprints\Rock.uasset'. Unknown extension 'uasset'.
+[2015.04.24-00.59.39:859][149]LogAssetTools:Warning: Failed to import 'D:\project back up 4-23-2015\Blueprints\Terrain.uasset'. Unknown extension 'uasset'.
+[2015.04.24-00.59.39:864][149]LogAssetTools:Warning: Failed to import 'D:\project back up 4-23-2015\Blueprints\Tree.uasset'. Unknown extension 'uasset'.
+[2015.04.24-00.59.39:870][149]LogAssetTools:Warning: Failed to import 'D:\project back up 4-23-2015\Blueprints\BarkNormal.uasset'. Unknown extension 'uasset'.
+[2015.04.24-00.59.39:876][149]LogAssetTools:Warning: Failed to import 'D:\project back up 4-23-2015\Blueprints\Bush.uasset'. Unknown extension 'uasset'.
+[2015.04.24-00.59.39:883][149]LogAssetTools:Warning: Failed to import 'D:\project back up 4-23-2015\Blueprints\Color.uasset'. Unknown extension 'uasset'.
+[2015.04.24-00.59.39:891][149]LogAssetTools:Warning: Failed to import 'D:\project back up 4-23-2015\Blueprints\flatNormal.uasset'. Unknown extension 'uasset'.
+[2015.04.24-00.59.39:899][149]LogAssetTools:Warning: Failed to import 'D:\project back up 4-23-2015\Blueprints\Green.uasset'. Unknown extension 'uasset'.
+[2015.04.24-01.01.37:336][538]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 D:/project back up 4-23-2015/export/BarkNormal.TGA)
+[2015.04.24-01.01.37:396][538]0.000023 seconds to analyze Texture2D /Game/BarkNormal.BarkNormal
+
+[2015.04.24-01.01.37:412][538]LogTexture:Display: Building textures: BarkNormal (BC5)
+[2015.04.24-01.01.37:498][538]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 D:/project back up 4-23-2015/export/Demo.FBX)
+[2015.04.24-01.01.37:546][538]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.04.24-01.01.37:546][538]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.04.24-01.01.37:546][538]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.04.24-01.01.37:546][538]LogFbx: ItemName: Model, ItemCount : 9
+[2015.04.24-01.01.37:546][538]LogFbx: ItemName: NodeAttribute, ItemCount : 1
+[2015.04.24-01.01.37:546][538]LogFbx: ItemName: Geometry, ItemCount : 4
+[2015.04.24-01.01.37:546][538]LogFbx: ItemName: Material, ItemCount : 3
+[2015.04.24-01.01.43:053][538]LogFbx: Loading FBX Scene from D:/project back up 4-23-2015/export/Demo.FBX
+[2015.04.24-01.01.43:136][538]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.24-01.01.43:147][538]LogLinker:Warning: Can't find file '/Game/M_Sky_Panning_Clouds2'
+[2015.04.24-01.01.43:158][538]LogLinker:Warning: Can't find file '/Game/M_Sky_Panning_Clouds2'
+[2015.04.24-01.01.43:158][538]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/M_Sky_Panning_Clouds2.M_Sky_Panning_Clouds2'
+[2015.04.24-01.01.43:189][538]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
+[2015.04.24-01.01.43:233][538]LogLinker:Warning: Can't find file '/Game/WorldGridMaterial'
+[2015.04.24-01.01.43:233][538]LogLinker:Warning: Can't find file '/Game/WorldGridMaterial'
+[2015.04.24-01.01.43:233][538]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/WorldGridMaterial.WorldGridMaterial'
+[2015.04.24-01.01.43:236][538]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. 
+[2015.04.24-01.01.43:454][538]LogLinker:Warning: Can't find file '/Game/DefaultMaterial'
+[2015.04.24-01.01.43:454][538]LogLinker:Warning: Can't find file '/Game/DefaultMaterial'
+[2015.04.24-01.01.43:454][538]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/DefaultMaterial.DefaultMaterial'
+[2015.04.24-01.01.43:465][538]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2015.04.24-01.01.43:896][538]LogFbx: == Initial material list:
+[2015.04.24-01.01.43:896][538]LogFbx: 0: M_Sky_Panning_Clouds2
+[2015.04.24-01.01.43:896][538]LogFbx: 1: WorldGridMaterial
+[2015.04.24-01.01.43:896][538]LogFbx: 2: DefaultMaterial
+[2015.04.24-01.01.43:896][538]LogFbx: 3: DefaultMaterial
+[2015.04.24-01.01.43:896][538]LogFbx:   remap 3 -> 2
+[2015.04.24-01.01.43:896][538]LogFbx: == After sorting:
+[2015.04.24-01.01.43:896][538]LogFbx: 0: M_Sky_Panning_Clouds2
+[2015.04.24-01.01.43:896][538]LogFbx: 1: WorldGridMaterial
+[2015.04.24-01.01.43:896][538]LogFbx: 2: DefaultMaterial
+[2015.04.24-01.01.43:896][538]LogFbx: == Mapping table:
+[2015.04.24-01.01.43:896][538]LogFbx:   sort 0 -> 0
+[2015.04.24-01.01.43:896][538]LogFbx:   sort 1 -> 1
+[2015.04.24-01.01.43:896][538]LogFbx:   sort 2 -> 2
+[2015.04.24-01.01.43:896][538]LogFbx:   sort 3 -> 2
+[2015.04.24-01.01.44:135][538]LogStaticMesh: Building static mesh Demo...
+[2015.04.24-01.01.46:785][538]LogStaticMesh: Built static mesh [2650.916260ms] /Game/Demo.Demo
+[2015.04.24-01.01.47:789][538]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.04.24-01.01.48:499][538]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 D:/project back up 4-23-2015/export/flatNormal.TGA)
+[2015.04.24-01.01.48:499][538]0.000003 seconds to analyze Texture2D /Game/flatNormal.flatNormal
+
+[2015.04.24-01.01.48:500][538]LogTexture:Display: Building textures: flatNormal (AutoDXT)
+[2015.04.24-01.01.48:521][538]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.04.24-01.01.48:521][538]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.04.24-01.01.48:521][538]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.04.24-01.02.07:201][422]LogRenderer:Warning: Reallocating scene render targets to support 1432x920 (Frame:2227).
+[2015.04.24-01.02.42:598][207]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000009DC8CC0
+[2015.04.24-01.04.23:721][322]Cmd: MAP LOAD FILE="../../../../../../Users/Cody Hamilton/Documents/Unreal Projects/procedraltiny/Content/Demo.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.24-01.04.23:721][322]LightingResults: New page: Lighting Build
+[2015.04.24-01.04.23:747][322]LoadErrors: New page: Loading map: Demo.umap
+[2015.04.24-01.04.23:778][322]MapCheck: New page: Map Check
+[2015.04.24-01.04.23:778][322]LightingResults: New page: Lighting Build
+[2015.04.24-01.04.23:788][322]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F7BBC40
+[2015.04.24-01.04.26:811][322]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.24-01.04.26:858][322]LogAIModule: Creating AISystem for world Demo
+[2015.04.24-01.04.26:873][322]Cmd: MAP CHECKDEP
+[2015.04.24-01.04.26:873][322]MapCheck: New page: Demo - Apr 23, 2015, 5:04:26 PM
+[2015.04.24-01.04.26:957][322]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 83.91ms to complete.
+[2015.04.24-01.04.26:957][322]LogFileHelpers: Loading map 'Demo' took 3.238
+[2015.04.24-01.04.27:026][323]Cmd: UpdateLandscapeEditorData -warnings
+[2015.04.24-01.04.27:037][323]Cmd: UpdateLandscapeEditorData
+[2015.04.24-01.04.39:792][ 33]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.24-01.04.39:792][ 33]PIE: New page: PIE session: Demo (Apr 23, 2015, 5:04:39 PM)
+[2015.04.24-01.04.39:885][ 33]LogPlayLevel: PIE: StaticDuplicateObject took: (0.092386s)
+[2015.04.24-01.04.39:886][ 33]LogPlayLevel: PIE: World Init took: (0.000561s)
+[2015.04.24-01.04.39:886][ 33]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Demo.Demo to /Game/UEDPIE_0_Demo.Demo (0.093119s)
+[2015.04.24-01.04.39:918][ 33]LogWorld: Game class is 'GameMode'
+[2015.04.24-01.04.39:920][ 33]LogAIModule: Creating AISystem for world Demo
+[2015.04.24-01.04.40:168][ 33]LogWorld: Bringing World /Game/UEDPIE_0_Demo.Demo up for play (max tick rate 60) at 2015.04.23-21.04.40
+[2015.04.24-01.04.40:171][ 33]LogWorld: Bringing up level for play took: 0.250435
+[2015.04.24-01.04.40:516][ 33]PIE: Info Play in editor start time for /Game/UEDPIE_0_Demo -0.193
+[2015.04.24-01.05.03:322][577]LogParticles: Destroy
